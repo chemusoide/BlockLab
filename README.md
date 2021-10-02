@@ -60,11 +60,6 @@ Comando para consultar todos la analítica de un usuario:
 ---- 
 	near view $CONTRACT consultarAnaliticasUsuario '{"idUsuario":"string"}'
 
-🤖 Pruebas
----- 
-Utilice el siguiente comando para ejecutar las pruebas:
-
-	yarn test
 
 🖥️ Interfáz gráfica de usuario
 ---- 
