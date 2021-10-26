@@ -62,9 +62,9 @@ Comando para consultar todos la analítica de un usuario:
 
 🤖 Test
 ---- 
-Use the following command to run the tests:
+Utiliza el siguiente comando para lanzar el test:
 
-yarn test
+	yarn test
 
 
 🖥️ Interfáz gráfica de usuario
