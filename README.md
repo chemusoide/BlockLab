@@ -54,11 +54,17 @@ Comando para consultar todos los usuarios:
 
 Comando para guardar una analica:
 ---- 
-	near call $CONTRACT registrarServicio '{ "descripción":"string", "idUsuario":"string"}' --account-id <your test account>
+	near call $CONTRACT registrarServicio '{ "descripción":"string", "idUsuario":"string"}' --account_id <your test account>
 
 Comando para consultar todos la analítica de un usuario:
 ---- 
 	near view $CONTRACT consultarAnaliticasUsuario '{"idUsuario":"string"}'
+
+🤖 Test
+---- 
+Use the following command to run the tests:
+
+yarn test
 
 
 🖥️ Interfáz gráfica de usuario

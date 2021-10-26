@@ -1,15 +1,15 @@
 {
-  "name": "NEARLancers",
+  "name": "BlockLab",
   "version": "0.0.1",
   "main": "index.js",
   "scripts": {
     "build": "asb",
     "test": "asp --nologo --verbose",
     "clean": "rm -rf ./build",
-    "deploy": "near dev-deploy ./build/release/NEARLancers.wasm"
+    "deploy": "near dev-deploy ./build/release/BlockLab.wasm"
   },
   "keywords": [],
-  "author": "Luis Daniel, Missael López, Yair Nava",
+  "author": "José María Polo Peromarta",
   "license": "ISC",
   "devDependencies": {
     "@types/uuid": "^8.3.1",
